@@ -1,7 +1,7 @@
 #include "binary_insertion_sorting.h"
 
 template <typename T>
-int binary_search(T arr[], T item, int low, int high) {
+int binary_search(T arr[], T item, int low, int high ) {
     while (low <= high) {
         int mid = low + (high - low) / 2;
         if (arr[mid] == item) {

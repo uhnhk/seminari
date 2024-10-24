@@ -1,7 +1,7 @@
 #include "insert_sorting.h"
 
 template <typename T>
-void insert_sort(T arr[], int n)
+void insert_sort(T arr[], int n )
 {
 	for (int i = 1; i < n; i++)
 	{

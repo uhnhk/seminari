@@ -1,7 +1,7 @@
 #include "optimized_bubble_sorting.h"
 
 template <typename T>
-void optimized_bubble_sort(T arr[], int n)
+void optimized_bubble_sort(T arr[], int n )
 {
 	for (int i = 0; i < n; i++)
 	{

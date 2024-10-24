@@ -1,7 +1,7 @@
 #include "selection_sorting.h"
 
 template <typename T>
-void selection_sort(T arr[], int n)
+void selection_sort(T arr[], int n )
 {
 	for (int i = 0; i < n; i++)
 	{

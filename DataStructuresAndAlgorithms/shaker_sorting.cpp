@@ -25,7 +25,7 @@ void shaker_sort(T arr[], int n) {
         swapped = false;
         --end;
 
-        for (int i = end - 1; i >= start; --i) {
+        for (int i = end - 1; i >= start; --i ) {
             if (arr[i] > arr[i + 1]) {
                 T temp = arr[i];
                 arr[i] = arr[i + 1];

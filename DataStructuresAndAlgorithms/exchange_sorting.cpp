@@ -1,7 +1,7 @@
 #include "exchange_sorting.h"
 
 template <typename T>
-void exchange_sort(T arr[], int n)
+void exchange_sort(T arr[], int n )
 {
 	for (int i = 0; i < (n - 1); i++)
 	{

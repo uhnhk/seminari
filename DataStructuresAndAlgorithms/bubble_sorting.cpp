@@ -1,7 +1,7 @@
 #include "bubble_sorting.h"
 
 template <typename T>
-void bubble_sort(T arr[], int n)
+void bubble_sort(T arr[], int n )
 {
 	for (int i = 0; i < n; i++)
 	{
