@@ -134,6 +134,7 @@
     <ClInclude Include="insert_sorting.h" />
     <ClInclude Include="optimized_bubble_sorting.h" />
     <ClInclude Include="selection_sorting.h" />
+    <ClInclude Include="shaker_sorting.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="binary_insertion_sorting.cpp" />
@@ -142,6 +143,7 @@
     <ClCompile Include="insert_sorting.cpp" />
     <ClCompile Include="optimized_bubble_sorting.cpp" />
     <ClCompile Include="selection_sorting.cpp" />
+    <ClCompile Include="shaker_sorting.cpp" />
     <ClCompile Include="test.cpp">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Tumen\source\repos\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\catch2</AdditionalIncludeDirectories>
     </ClCompile>
